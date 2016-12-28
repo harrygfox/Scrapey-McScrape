@@ -14,7 +14,7 @@ This node module scrapes WeGotTickets.com and outputs the event data in a .json 
 ```
 
 ### Dependencies
-[Node v6.0.0]('https://nodejs.org/en/blog/release/v6.0.0/')
+[Node v6.0.0]('https://nodejs.org/en/blog/release/v6.0.0')
 
 ```json
 "dependencies": {
@@ -24,7 +24,7 @@ This node module scrapes WeGotTickets.com and outputs the event data in a .json 
 ```
 
 #### Request
-[Request]('change) is a node module that allows us to easily make a request to fetch the WeGotTickets webpages.
+[Request]('https://github.com/request/request') is a node module that allows us to easily make a request to fetch the WeGotTickets webpages.
 
 #### Cheerio
 [Cheerio]('https://github.com/cheeriojs/cheerio') is a node module that provides a jQuery-like interface to interact with a piece of HTML and allows us to easily select the required data from WeGotTickets.

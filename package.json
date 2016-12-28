@@ -1,0 +1,17 @@
+{
+  "name": "Scrapey-McScrape",
+  "version": "1.0.0",
+  "description": "Scraping WeGotTickets",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/scrape-test.js",
+    "scrape": "node scrape.js"
+  },
+  "author": "Naaz Ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.79.0",
+    "tape": "^4.6.3"
+  }
+}

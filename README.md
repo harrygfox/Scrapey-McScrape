@@ -14,7 +14,7 @@ This node module scrapes WeGotTickets.com and outputs the event data in a .json 
 ```
 
 ### Dependencies
-[Node v6.0.0]('https://nodejs.org/en/blog/release/v6.0.0')
+[Node v6.0.0](https://nodejs.org/en/blog/release/v6.0.0)
 
 ```json
 "dependencies": {
@@ -24,18 +24,18 @@ This node module scrapes WeGotTickets.com and outputs the event data in a .json 
 ```
 
 #### Request
-[Request]('https://github.com/request/request') is a node module that allows us to easily make a request to fetch the WeGotTickets webpages.
+[Request](https://github.com/request/request) is a node module that allows us to easily make a request to fetch the WeGotTickets webpages.
 
 #### Cheerio
-[Cheerio]('https://github.com/cheeriojs/cheerio') is a node module that provides a jQuery-like interface to interact with a piece of HTML and allows us to easily select the required data from WeGotTickets.
+[Cheerio](https://github.com/cheeriojs/cheerio) is a node module that provides a jQuery-like interface to interact with a piece of HTML and allows us to easily select the required data from WeGotTickets.
 
 
 ### How?
-Assuming you have [Node v6.0.0]('https://nodejs.org/en/blog/release/v6.0.0/') or later:
+Assuming you have [Node v6.0.0](https://nodejs.org/en/blog/release/v6.0.0/) or later:
 
 Run ```npm install```
 
-To output the first page of events from  [http://www.wegottickets.com/searchresults/all]('http://www.wegottickets.com/searchresults/all'), simply run ```npm run scrape```
+To output the first page of events from  [http://www.wegottickets.com/searchresults/all](http://www.wegottickets.com/searchresults/all), simply run ```npm run scrape```
 
 If you want more than 1 page, just add the number of pages you would like onto the end of the npm script. E.g. to scrape 5 pages, run ```npm run scrape 5```
 

@@ -1,5 +1,4 @@
 ### What?
-
 This node module scrapes WeGotTickets.com and outputs the event data in a .json file:
 
 ```json
